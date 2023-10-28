@@ -13,7 +13,7 @@ import pytest
 import HTMLTestRunner
 
 
-class TestHomePageNavigation(unittest.TestCase):
+class TestHomePage(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get("https://bensimon.com.ar/")
